@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this methodology or emission factor data, please cite it as below."
+type: software
+title: "GreenCalculus Methodology & Emission Factor Dataset"
+abstract: >
+  Formal methodology documentation and curated emission factor datasets
+  for GHG Protocol-aligned carbon accounting. Covers Scope 1, 2, and 3
+  emissions, IPCC AR6 GWP-100 values, and IEA 2026 grid emission factors.
+  Built to support CSRD, SBTi, and GHG Protocol Corporate Standard reporting.
+authors:
+  - family-names: Say
+    given-names: Jeremiah
+    orcid: ""
+    affiliation: "GreenCalculus"
+version: "2026.1"
+date-released: "2026-05-10"
+url: "https://greencalculus.com"
+repository-code: "https://github.com/greencalculus/greencalculus-methodology"
+license: MIT
+keywords:
+  - carbon accounting
+  - GHG Protocol
+  - emission factors
+  - Scope 1
+  - Scope 2
+  - Scope 3
+  - CSRD
+  - SBTi
+  - IPCC AR6
+  - sustainability
+  - CO2e
+references:
+  - type: standard
+    title: "GHG Protocol Corporate Accounting and Reporting Standard"
+    authors:
+      - name: "World Resources Institute"
+      - name: "World Business Council for Sustainable Development"
+    url: "https://ghgprotocol.org/corporate-standard"
+  - type: standard
+    title: "IPCC Sixth Assessment Report — GWP-100 values"
+    authors:
+      - name: "Intergovernmental Panel on Climate Change"
+    url: "https://www.ipcc.ch/assessment-report/ar6/"
+  - type: report
+    title: "IEA Global Energy Review 2026"
+    authors:
+      - name: "International Energy Agency"
+    url: "https://www.iea.org"
