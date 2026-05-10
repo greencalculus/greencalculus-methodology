@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "title": "WebApplication JSON-LD Template — GreenCalculus",
+    "description": "Schema.org WebApplication structured data template for carbon calculators. Copy and adapt for each calculator page.",
+    "docs": "https://schema.org/WebApplication",
+    "greencalculus_reference": "https://greencalculus.com/methodology/schema/"
+  },
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "@id": "https://greencalculus.com/calculators/YOUR-CALCULATOR-SLUG/",
+  "name": "YOUR CALCULATOR NAME — GreenCalculus",
+  "description": "One sentence describing what the calculator computes and what standard it follows.",
+  "url": "https://greencalculus.com/calculators/YOUR-CALCULATOR-SLUG/",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires JavaScript",
+  "isAccessibleForFree": true,
+  "inLanguage": "en",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Person",
+    "@id": "https://greencalculus.com/#jeremiah-say",
+    "name": "Jeremiah Say"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://greencalculus.com/#organisation",
+    "name": "GreenCalculus",
+    "url": "https://greencalculus.com"
+  },
+  "reviewedBy": {
+    "@type": "SoftwareApplication",
+    "@id": "https://greencalculus.com/#gc-engineering"
+  },
+  "isBasedOn": [
+    {
+      "@type": "CreativeWork",
+      "name": "GHG Protocol Corporate Accounting and Reporting Standard",
+      "url": "https://ghgprotocol.org/corporate-standard"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "12",
+    "_note": "Only inject aggregateRating after >= 3 real user votes. Remove this block until threshold is met."
+  },
+  "featureList": [
+    "GHG Protocol aligned",
+    "IPCC AR6 GWP-100 values",
+    "Scope 1 / Scope 2 / Scope 3 tagged",
+    "tCO2e output",
+    "Zero dependencies — Vanilla JS"
+  ]
+}
