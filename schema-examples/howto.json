@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "title": "HowTo JSON-LD Template — GreenCalculus",
+    "description": "Schema.org HowTo structured data template for GreenCalculus guide pages. Enables rich results for step-by-step reporting walkthroughs.",
+    "docs": "https://schema.org/HowTo",
+    "greencalculus_reference": "https://greencalculus.com/guides/"
+  },
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "@id": "https://greencalculus.com/guides/YOUR-GUIDE-SLUG/",
+  "name": "How to Calculate YOUR TOPIC — Step-by-Step Guide",
+  "description": "One sentence describing what the guide helps the user accomplish and which standard it follows.",
+  "url": "https://greencalculus.com/guides/YOUR-GUIDE-SLUG/",
+  "inLanguage": "en",
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-05-10",
+  "author": {
+    "@type": "Person",
+    "@id": "https://greencalculus.com/#jeremiah-say",
+    "name": "Jeremiah Say"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://greencalculus.com/#organisation",
+    "name": "GreenCalculus",
+    "url": "https://greencalculus.com"
+  },
+  "isBasedOn": [
+    {
+      "@type": "CreativeWork",
+      "name": "GHG Protocol Corporate Accounting and Reporting Standard",
+      "url": "https://ghgprotocol.org/corporate-standard"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Step 1 name",
+      "text": "Full description of step 1.",
+      "url": "https://greencalculus.com/guides/YOUR-GUIDE-SLUG/#step-1"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Step 2 name",
+      "text": "Full description of step 2.",
+      "url": "https://greencalculus.com/guides/YOUR-GUIDE-SLUG/#step-2"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Step 3 name",
+      "text": "Full description of step 3.",
+      "url": "https://greencalculus.com/guides/YOUR-GUIDE-SLUG/#step-3"
+    }
+  ],
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "GreenCalculus Calculator",
+      "url": "https://greencalculus.com/calculators/YOUR-CALCULATOR-SLUG/"
+    }
+  ]
+}
