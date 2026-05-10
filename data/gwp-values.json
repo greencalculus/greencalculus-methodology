@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "title": "IPCC AR6 GWP-100 Values — GreenCalculus Dataset",
+    "description": "Global Warming Potential over 100-year horizon (GWP-100) from IPCC Sixth Assessment Report (AR6). Used by all GreenCalculus calculators to convert non-CO2 gases to CO2 equivalent.",
+    "source": "IPCC AR6 Working Group I, Chapter 7, Supplementary Material, Table 7.SM.7",
+    "source_url": "https://www.ipcc.ch/assessment-report/ar6/",
+    "dataset_version": "2026.1",
+    "published": "2026-05-10",
+    "license": "MIT",
+    "canonical_url": "https://greencalculus.com/data/ipcc-ar6-gwp-values/",
+    "notes": "AR6 values supersede AR5. GreenCalculus adopted AR6 from dataset version 2026.1. Biogenic CH4 (GWP 27.9) applies to emissions from managed biological processes; fossil CH4 (GWP 29.8) applies to combustion and fugitive sources."
+  },
+  "gwp_100": {
+    "CO2": {
+      "formula": "CO2",
+      "name": "Carbon dioxide",
+      "gwp_ar6": 1,
+      "gwp_ar5": 1,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "CH4_fossil": {
+      "formula": "CH4",
+      "name": "Methane (fossil)",
+      "gwp_ar6": 29.8,
+      "gwp_ar5": 25,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7",
+      "notes": "Use for natural gas combustion, coal mining fugitives, oil & gas fugitives"
+    },
+    "CH4_biogenic": {
+      "formula": "CH4",
+      "name": "Methane (biogenic)",
+      "gwp_ar6": 27.9,
+      "gwp_ar5": 25,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7",
+      "notes": "Use for landfill gas, agricultural emissions, managed biological processes"
+    },
+    "N2O": {
+      "formula": "N2O",
+      "name": "Nitrous oxide",
+      "gwp_ar6": 273,
+      "gwp_ar5": 265,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "HFC_23": {
+      "formula": "CHF3",
+      "name": "HFC-23",
+      "gwp_ar6": 14600,
+      "gwp_ar5": 12400,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "HFC_32": {
+      "formula": "CH2F2",
+      "name": "HFC-32",
+      "gwp_ar6": 771,
+      "gwp_ar5": 677,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "HFC_125": {
+      "formula": "C2HF5",
+      "name": "HFC-125",
+      "gwp_ar6": 3740,
+      "gwp_ar5": 3170,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "HFC_134a": {
+      "formula": "C2H2F4",
+      "name": "HFC-134a",
+      "gwp_ar6": 1526,
+      "gwp_ar5": 1430,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7",
+      "notes": "Common refrigerant; widely used in mobile air conditioning"
+    },
+    "HFC_143a": {
+      "formula": "C2H3F3",
+      "name": "HFC-143a",
+      "gwp_ar6": 5810,
+      "gwp_ar5": 4470,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "HFC_152a": {
+      "formula": "C2H4F2",
+      "name": "HFC-152a",
+      "gwp_ar6": 164,
+      "gwp_ar5": 124,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "HFC_227ea": {
+      "formula": "C3HF7",
+      "name": "HFC-227ea",
+      "gwp_ar6": 3600,
+      "gwp_ar5": 3350,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "HFC_245fa": {
+      "formula": "C3H3F5",
+      "name": "HFC-245fa",
+      "gwp_ar6": 962,
+      "gwp_ar5": 1030,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "SF6": {
+      "formula": "SF6",
+      "name": "Sulphur hexafluoride",
+      "gwp_ar6": 25200,
+      "gwp_ar5": 23500,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7",
+      "notes": "Used in electrical switchgear; extremely high GWP"
+    },
+    "NF3": {
+      "formula": "NF3",
+      "name": "Nitrogen trifluoride",
+      "gwp_ar6": 17400,
+      "gwp_ar5": 16100,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7",
+      "notes": "Used in semiconductor manufacturing"
+    },
+    "PFC_14": {
+      "formula": "CF4",
+      "name": "Perfluoromethane (PFC-14)",
+      "gwp_ar6": 7380,
+      "gwp_ar5": 6630,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    },
+    "PFC_116": {
+      "formula": "C2F6",
+      "name": "Perfluoroethane (PFC-116)",
+      "gwp_ar6": 12400,
+      "gwp_ar5": 11100,
+      "unit": "kg CO2e per kg gas",
+      "source_table": "Table 7.SM.7"
+    }
+  }
+}
