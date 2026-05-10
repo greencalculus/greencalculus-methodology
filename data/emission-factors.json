@@ -1,0 +1,200 @@
+{
+  "_meta": {
+    "title": "GreenCalculus Emission Factor Dataset",
+    "description": "Curated emission factors for Scope 1 stationary combustion, Scope 2 electricity, and selected Scope 3 categories. All factors expressed in kg CO2e per unit unless noted.",
+    "dataset_version": "2026.1",
+    "published": "2026-05-10",
+    "gwp_basis": "IPCC AR6 GWP-100",
+    "license": "MIT",
+    "canonical_url": "https://greencalculus.com/data/emission-factors/",
+    "sources": {
+      "DESNZ_2024": {
+        "name": "UK DESNZ Greenhouse Gas Conversion Factors 2024",
+        "publisher": "UK Department for Energy Security and Net Zero",
+        "url": "https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting",
+        "year": 2024
+      },
+      "EPA_2024": {
+        "name": "EPA Emission Factors for Greenhouse Gas Inventories 2024",
+        "publisher": "US Environmental Protection Agency",
+        "url": "https://www.epa.gov/climateleadership/ghg-emission-factors-hub",
+        "year": 2024
+      },
+      "IEA_2026": {
+        "name": "IEA Global Energy Review 2026",
+        "publisher": "International Energy Agency",
+        "url": "https://www.iea.org/reports/global-energy-review",
+        "year": 2026
+      },
+      "IPCC_2006": {
+        "name": "IPCC 2006 Guidelines for National Greenhouse Gas Inventories",
+        "publisher": "Intergovernmental Panel on Climate Change",
+        "url": "https://www.ipcc-nggip.iges.or.jp/public/2006gl/",
+        "year": 2006
+      }
+    }
+  },
+  "scope1_stationary_combustion": {
+    "_notes": "Factors are kg CO2e per litre (liquid fuels), per tonne (solid fuels), or per kWh (gaseous fuels on energy basis). GWP basis: IPCC AR6.",
+    "natural_gas": {
+      "name": "Natural gas",
+      "factor_kg_co2e_per_kwh_gcv": 0.18293,
+      "factor_kg_co2e_per_kwh_ncv": 0.20268,
+      "factor_kg_co2e_per_m3": 2.03042,
+      "unit_primary": "kWh (GCV)",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O (fossil GWP)"
+    },
+    "diesel": {
+      "name": "Diesel (average biofuel blend)",
+      "factor_kg_co2e_per_litre": 2.51060,
+      "unit_primary": "litre",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O"
+    },
+    "petrol": {
+      "name": "Petrol (average biofuel blend)",
+      "factor_kg_co2e_per_litre": 2.15270,
+      "unit_primary": "litre",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O"
+    },
+    "lpg": {
+      "name": "Liquefied petroleum gas (LPG)",
+      "factor_kg_co2e_per_litre": 1.55540,
+      "factor_kg_co2e_per_tonne": 2.93870,
+      "unit_primary": "litre",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O"
+    },
+    "coal_industrial": {
+      "name": "Coal (industrial)",
+      "factor_kg_co2e_per_tonne": 2405.0,
+      "unit_primary": "tonne",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O"
+    },
+    "coal_domestic": {
+      "name": "Coal (domestic)",
+      "factor_kg_co2e_per_tonne": 2883.0,
+      "unit_primary": "tonne",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O"
+    },
+    "fuel_oil": {
+      "name": "Fuel oil (heavy)",
+      "factor_kg_co2e_per_litre": 3.17920,
+      "unit_primary": "litre",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O"
+    },
+    "kerosene": {
+      "name": "Kerosene (burning oil)",
+      "factor_kg_co2e_per_litre": 2.53980,
+      "unit_primary": "litre",
+      "source": "DESNZ_2024",
+      "includes": "CO2 + CH4 + N2O"
+    },
+    "wood_chips": {
+      "name": "Wood chips (biomass)",
+      "factor_kg_co2e_per_tonne": 22.9,
+      "unit_primary": "tonne",
+      "source": "DESNZ_2024",
+      "includes": "CH4 + N2O only (CO2 biogenic, excluded per GHG Protocol)",
+      "notes": "CO2 from biomass combustion excluded per GHG Protocol biogenic carbon rules"
+    }
+  },
+  "scope2_electricity": {
+    "_notes": "Location-based grid emission factors. kg CO2e per kWh. Source: IEA 2026 and national regulators.",
+    "UK": {
+      "name": "United Kingdom",
+      "factor_kg_co2e_per_kwh": 0.20707,
+      "year": 2024,
+      "source": "DESNZ_2024"
+    },
+    "US_average": {
+      "name": "United States (national average)",
+      "factor_kg_co2e_per_kwh": 0.38600,
+      "year": 2023,
+      "source": "EPA_2024"
+    },
+    "EU_average": {
+      "name": "European Union (average)",
+      "factor_kg_co2e_per_kwh": 0.23300,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "Germany": {
+      "name": "Germany",
+      "factor_kg_co2e_per_kwh": 0.38500,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "France": {
+      "name": "France",
+      "factor_kg_co2e_per_kwh": 0.05200,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "Australia": {
+      "name": "Australia (NEM average)",
+      "factor_kg_co2e_per_kwh": 0.59000,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "China": {
+      "name": "China",
+      "factor_kg_co2e_per_kwh": 0.55100,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "India": {
+      "name": "India",
+      "factor_kg_co2e_per_kwh": 0.70800,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "Singapore": {
+      "name": "Singapore",
+      "factor_kg_co2e_per_kwh": 0.40800,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "Malaysia": {
+      "name": "Malaysia",
+      "factor_kg_co2e_per_kwh": 0.58500,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "Japan": {
+      "name": "Japan",
+      "factor_kg_co2e_per_kwh": 0.47000,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "South_Korea": {
+      "name": "South Korea",
+      "factor_kg_co2e_per_kwh": 0.43500,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "Canada": {
+      "name": "Canada (national average)",
+      "factor_kg_co2e_per_kwh": 0.13000,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "Brazil": {
+      "name": "Brazil",
+      "factor_kg_co2e_per_kwh": 0.07500,
+      "year": 2024,
+      "source": "IEA_2026"
+    },
+    "South_Africa": {
+      "name": "South Africa",
+      "factor_kg_co2e_per_kwh": 0.89100,
+      "year": 2024,
+      "source": "IEA_2026"
+    }
+  }
+}
