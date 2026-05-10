@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "title": "Dataset JSON-LD Template — GreenCalculus",
+    "description": "Schema.org Dataset structured data template for emission factor data pages. Enables Google Dataset Search eligibility.",
+    "docs": "https://schema.org/Dataset",
+    "greencalculus_reference": "https://greencalculus.com/data/"
+  },
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://greencalculus.com/data/YOUR-DATASET-SLUG/",
+  "name": "YOUR DATASET NAME — GreenCalculus",
+  "description": "One or two sentences describing the dataset, what factors it contains, and what standard it follows.",
+  "url": "https://greencalculus.com/data/YOUR-DATASET-SLUG/",
+  "identifier": "https://greencalculus.com/data/YOUR-DATASET-SLUG/",
+  "version": "2026.1",
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-05-10",
+  "inLanguage": "en",
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Person",
+    "@id": "https://greencalculus.com/#jeremiah-say",
+    "name": "Jeremiah Say"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://greencalculus.com/#organisation",
+    "name": "GreenCalculus",
+    "url": "https://greencalculus.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/greencalculus/greencalculus-methodology/main/data/emission-factors.json"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/greencalculus/greencalculus-methodology/main/data/emission-factors.csv"
+    }
+  ],
+  "isBasedOn": [
+    {
+      "@type": "CreativeWork",
+      "name": "UK DESNZ Greenhouse Gas Conversion Factors 2024",
+      "url": "https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "IEA Global Energy Review 2026",
+      "url": "https://www.iea.org/reports/global-energy-review"
+    }
+  ],
+  "keywords": [
+    "emission factors",
+    "carbon accounting",
+    "GHG Protocol",
+    "CO2e",
+    "Scope 1",
+    "Scope 2",
+    "IPCC AR6",
+    "grid emission factors",
+    "sustainability"
+  ]
+}
