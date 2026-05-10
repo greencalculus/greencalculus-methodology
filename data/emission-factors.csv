@@ -1,0 +1,28 @@
+scope,category,key,name,factor_value,factor_unit,source,source_year,gwp_basis,notes
+Scope 1,Stationary Combustion,natural_gas,Natural gas,0.18293,kg CO2e per kWh (GCV),DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O (fossil GWP)"
+Scope 1,Stationary Combustion,natural_gas_ncv,Natural gas (NCV basis),0.20268,kg CO2e per kWh (NCV),DESNZ 2024,2024,IPCC AR6,"Use NCV basis when fuel measured on net calorific value"
+Scope 1,Stationary Combustion,natural_gas_m3,Natural gas (volumetric),2.03042,kg CO2e per m3,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O (fossil GWP)"
+Scope 1,Stationary Combustion,diesel,Diesel (average biofuel blend),2.51060,kg CO2e per litre,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,petrol,Petrol (average biofuel blend),2.15270,kg CO2e per litre,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,lpg_litre,LPG (liquefied petroleum gas),1.55540,kg CO2e per litre,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,lpg_tonne,LPG (liquefied petroleum gas),2.93870,kg CO2e per tonne,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,coal_industrial,Coal (industrial),2405.0,kg CO2e per tonne,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,coal_domestic,Coal (domestic),2883.0,kg CO2e per tonne,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,fuel_oil,Fuel oil (heavy),3.17920,kg CO2e per litre,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,kerosene,Kerosene (burning oil),2.53980,kg CO2e per litre,DESNZ 2024,2024,IPCC AR6,"Includes CO2 + CH4 + N2O"
+Scope 1,Stationary Combustion,wood_chips,Wood chips (biomass),22.9,kg CO2e per tonne,DESNZ 2024,2024,IPCC AR6,"CH4 + N2O only — CO2 biogenic excluded per GHG Protocol"
+Scope 2,Electricity (location-based),UK,United Kingdom,0.20707,kg CO2e per kWh,DESNZ 2024,2024,IPCC AR6,
+Scope 2,Electricity (location-based),US_average,United States (national average),0.38600,kg CO2e per kWh,US EPA eGRID 2024,2023,IPCC AR6,
+Scope 2,Electricity (location-based),EU_average,European Union (average),0.23300,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),Germany,Germany,0.38500,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),France,France,0.05200,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,"Low factor due to high nuclear share"
+Scope 2,Electricity (location-based),Australia,Australia (NEM average),0.59000,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),China,China,0.55100,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),India,India,0.70800,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),Singapore,Singapore,0.40800,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),Malaysia,Malaysia,0.58500,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),Japan,Japan,0.47000,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),South_Korea,South Korea,0.43500,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,
+Scope 2,Electricity (location-based),Canada,Canada (national average),0.13000,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,"Low factor due to high hydro share"
+Scope 2,Electricity (location-based),Brazil,Brazil,0.07500,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,"Low factor due to high hydro share"
+Scope 2,Electricity (location-based),South_Africa,South Africa,0.89100,kg CO2e per kWh,IEA 2026,2024,IPCC AR6,"High factor due to coal-dominant grid"
