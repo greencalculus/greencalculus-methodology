@@ -1,6 +1,21 @@
-# greencalculus-methodology
-Formal methodology, emission factor datasets, and GHG Protocol alignment documentation for GreenCalculus.com
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/greencalculus/.github/main/profile/assets/greencalculus-logo.png" width="72" height="72" alt="GreenCalculus" />
+
 # GreenCalculus Methodology & Emission Factor Dataset
+
+### The transparent, citable source for our carbon-accounting math.
+
+[greencalculus.com](https://greencalculus.com) · [Standards](https://github.com/greencalculus/greencalculus-standards) · [Live demos](https://greencalculus.github.io/greencalculus-calculator-demo/) · [**Cite this repo**](https://github.com/greencalculus/greencalculus-methodology/blob/main/CITATION.cff)
+
+![GHG Protocol](https://img.shields.io/badge/GHG_Protocol-Corporate_·_Scope_3_·_LSR_2026-04BF62?style=flat-square)
+![IPCC AR6](https://img.shields.io/badge/IPCC_AR6-GWP--100-04BF62?style=flat-square)
+![Dataset](https://img.shields.io/badge/Dataset-CalVer_2026.1-04BF62?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-04BF62?style=flat-square)
+
+</div>
+
+---
 
 **The formal methodology, emission factor datasets, and GHG Protocol
 alignment documentation underpinning [GreenCalculus.com](https://greencalculus.com).**
@@ -106,9 +121,10 @@ the [CITATION.cff](CITATION.cff) file.
 
 ## About GreenCalculus
 
-[GreenCalculus.com](https://greencalculus.com) hosts 1,000+ high-precision
-carbon and environmental calculators built for sustainability officers,
-engineers, and corporate compliance teams.
+[GreenCalculus.com](https://greencalculus.com) is the traceable reference layer for
+corporate carbon accounting — high-precision calculators built for sustainability
+officers, engineers, and corporate compliance teams, every result traceable to a
+published factor and a named standard.
 
-**Built by [Jeremiah Say](https://greencalculus.com/about/jeremiah-say/)**
-— Lead Systems Architect · GHG Protocol · IPCC AR6 · CSRD
+**Built and maintained by [Jeremiah Say](https://greencalculus.com/about/jeremiah-say/)**
+— Lead Systems Architect · GHG Protocol · IPCC AR6 · CSRD/ESRS E1 · SBTi · PCAF
