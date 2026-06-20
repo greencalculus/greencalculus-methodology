@@ -26,4 +26,4 @@ datasets, and GHG Protocol alignment documentation behind GreenCalculus. It is o
   citation (publisher, document, year, table/page) in the change.
 - Be respectful and constructive.
 
-Questions? Open an issue or reach us at hello@greencalculus.com.
+Questions? Open an issue or reach us at jeremiah@greencalculus.com.
